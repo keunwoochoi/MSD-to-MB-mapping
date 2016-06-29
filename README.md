@@ -6,6 +6,8 @@ These files are just a copy of files that are kindly provided from [AcousticBrai
 According to the original page,
 > We currently have a mapping for about 250,000 MSD IDs, resulting in 370,000 matches (because a MSD ID may map to more than one MusicBrainz ID).
 
+Please let me know if hosting this might cause any problem. 
+
 #### Source code
 They used [this code](https://github.com/MTG/acousticbrainz-labs/tree/master/msdtombid) to get these files. 
 
