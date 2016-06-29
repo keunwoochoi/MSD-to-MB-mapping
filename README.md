@@ -10,10 +10,14 @@ Please let me know if hosting this might cause any problem.
 
 #### How to use
 After cloning,
-` cat msd-mbid-2016-01-results.json.bz2.gz.a? | gunzip > msd-mbid-2016-01-results.json.bz2 `
+```
+cat msd-mbid-2016-01-results.json.bz2.gz.a? | gunzip > msd-mbid-2016-01-results.json.bz2 
+```
 
 to merge and get `msd-mbid-2016-01-results.json.bz2`. Then,
-` bzip2 -d *.bz2 `
+```
+bzip2 -d *.bz2 
+```
 
 and that's it.
 
@@ -24,10 +28,10 @@ Below is also copied & pasted from the official distribution.
 
 #### Files
 
-* msd-mbid-2016-01-abz-mbids.csv.bz2 (33M): A unique list of MusicBrainz IDs present in AcousticBrainz at the time of the matching
-* msd-mbid-2016-01-results.json.bz2 (195M): A mapping of MSD IDs and metadata to Recordings in MusicBrainz
-* msd-mbid-2016-01-results-ab.json.bz2 (60M): The same mapping file, containing MBIDs only present in AcousticBrainz (filtered with the first file)
-* msd-mbid-2016-01-results-ab.csv.bz2 (13M): The AB mapping file in CSV format, with simplified metadata
+* `msd-mbid-2016-01-abz-mbids.csv.bz2` (33M): A unique list of MusicBrainz IDs present in AcousticBrainz at the time of the matching
+* `msd-mbid-2016-01-results.json.bz2` (195M): A mapping of MSD IDs and metadata to Recordings in MusicBrainz
+* `msd-mbid-2016-01-results-ab.json.bz2` (60M): The same mapping file, containing MBIDs only present in AcousticBrainz (filtered with the first file)
+* `msd-mbid-2016-01-results-ab.csv.bz2` (13M): The AB mapping file in CSV format, with simplified metadata
 
 #### File Format
 
