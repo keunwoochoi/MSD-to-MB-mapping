@@ -8,6 +8,13 @@ According to the original page,
 
 Please let me know if hosting this might cause any problem. 
 
+#### How to use
+After cloning,
+> cat msd-mbid-2016-01-results.json.bz2.gz.a? | gunzip > msd-mbid-2016-01-results.json.bz2
+to merge and get `msd-mbid-2016-01-results.json.bz2`. Then,
+> bzip2 -d *.bz2
+and that's it.
+
 #### Source code
 They used [this code](https://github.com/MTG/acousticbrainz-labs/tree/master/msdtombid) to get these files. 
 
